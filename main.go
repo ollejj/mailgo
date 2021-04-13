@@ -10,4 +10,8 @@ func main() {
 	from := args[0]
 	password := args[1]
 
+	to := []string{
+		args[2],
+	}
+
 }
