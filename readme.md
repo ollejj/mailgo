@@ -1,5 +1,4 @@
-# Simple Email sender
-## Written in go
+# A Simple Email sender for Golang
 
 ## Requirements
 - Valid gmail-account with 2-Step Verification
