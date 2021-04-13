@@ -21,7 +21,7 @@ func main() {
 	smtpPort := "587"
 
 	// Message
-	message := []byte("Hello")
+	message := []byte(args[3])
 
 	// Auth sender
 	auth := smtp.PlainAuth("", from, password, smtpHost)
